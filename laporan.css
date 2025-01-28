@@ -57,10 +57,11 @@ h2 {
   font-family: 'Times New Roman';
 }
 p {
-  font-family: 'Times New Roman';
-  font-size: 23px;
-  -webkit-text-stroke: 1px transparent; /* Border luar transparan */
-  background-image: linear-gradient(to right, green, blue); /* Gradasi warna */
+  font-size: 20px;
+  font-weight: bold;
+  color: white; /* Warna teks */
+  -webkit-text-stroke: 2px transparent; /* Border luar transparan */
+  background-image: linear-gradient(to right, lime, cyan); /* Gradasi warna lime ke cyan */
   -webkit-background-clip: text; /* Menempelkan gradasi ke teks */
   background-clip: text;
 }
