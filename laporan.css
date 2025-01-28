@@ -1,0 +1,204 @@
+header {
+  background: linear-gradient(45deg, yellow, lime);
+  padding-right: 15px;
+  padding-block: 15px;
+  padding-left: 15px;
+  border: 2px red;
+  margin-bottom: 25px;
+}
+
+.pertama {
+  font-family: 'Times New Roman';
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 30px;
+  text-decoration: underline;
+}
+
+body {
+  background: linear-gradient(45deg, lime, lightyellow, cyan, white); /* Gradasi 45 derajat */
+  background-size: 600% 300%; /* Ukuran background besar untuk animasi yang halus */
+  animation: gradientAnimation 10s ease-in-out infinite; /* Durasi animasi 80 detik */
+}
+
+/* Pindahkan @keyframes ke luar */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%; /* Posisi awal di kiri atas */
+  }
+  25% {
+    background-position: 100% 0%; /* Bergerak ke kanan atas */
+  }
+  50% {
+    background-position: 100% 100%; /* Bergerak ke kanan bawah */
+  }
+  75% {
+    background-position: 0% 100%; /* Bergerak ke kiri bawah */
+  }
+  100% {
+    background-position: 0% 0%; /* Kembali ke kiri atas */
+  }
+}
+
+.pendahuluan {
+  text-align: left;
+  font-family:  'Times New Roman';
+  font-size: 15px;
+  padding: 2px;
+}
+
+.container {
+  background-color: white;
+  border: 2px solid black;
+  padding: 2px;
+}
+
+p,h2 {
+  font-family: 'Times New Roman';
+}
+
+.box {
+  margin-top: 10px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.kotak {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: white;
+  border: 2px solid black;
+  margin: 20px;
+  
+}
+i {
+  font-size: 15px;
+}
+
+strong {
+  font-size: 25px;
+}
+
+span {
+  font-size: 15px;
+}
+
+.kotak2 {
+  font-family: 'Times New Roman';
+  padding: 3px;
+  background-color: white;
+  border: 2px solid black;
+}
+.luka {
+  font-size: 20px;
+}
+
+hr {
+  height: 5px;
+  border: 0;
+  background: linear-gradient(45deg, aqua, lime, violet); /* Menggunakan linear-gradient yang benar */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top: 10px;
+}
+
+dl {
+  color: red;
+}
+
+dd {
+  color: black;
+}
+
+.kotak3 {
+  font-family: 'Times New Roman';
+  padding: 3px;
+  background-color: white;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.penutup {
+  font-family: 'Times New Roman';
+  padding: 3px;
+  background-color: white;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+img {
+  width: 120px;
+  height: 95px;
+  border: 1px solid red;
+}
+
+mark {
+  background-color: lightgreen;
+}
+
+footer {
+  font-family: 'Times New Roman';
+  font-size: 10px;
+  border: 1px solid black;
+  margin-top: 25px;
+  background-color: white;
+  color: darkblue;
+}
+
+
+.box-marquee {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(lime,aqua);
+  margin-bottom: 30px;
+  border: 5px solid yellow;
+  padding: 6px;
+  margin-left: -11.35px;
+}
+
+.marquee {
+  display: inline-block;
+    white-space: nowrap;
+    animation: marquee 5s linear infinite;
+    padding-left: 100%;/* Mulai dari luar kontainer */
+}
+
+/* Keyframes untuk animasi marquee */
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.mq,.qm {
+  font-size: 20px;
+}
+
+.isi {
+  height: 100%
+  width: 100%;
+  background: linear-gradient(45deg, lime, lightyellow, cyan, white);
+  border: 3px solid darkblue;
+  margin-top: 25px;
+  padding: 12px;
+}
+
+.akhir {
+  height: 100%
+  width: 100%;
+  background: linear-gradient(75deg, green, blue, yellow, silver);
+  border: 3px solid darkred;
+  margin-top: 25px;
+  padding: 12px;
+}
+
+.opening {
+  font-family: 'Times New Roman';
+  font-size: 45px;
+  text-align: center;
+  background: linear-gradient(45deg, black,grey,white,lightpink,pink,red,violet,purple,lightblue,cyan,darkcyan,blue);
+}
