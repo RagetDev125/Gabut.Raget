@@ -60,7 +60,7 @@ p {
   font-family: 'Times New Roman';
   font-size: 18px;
   -webkit-text-stroke: 1px transparent; /* Border luar transparan */
-  background-image: linear-gradient(to right, lime, cyan); /* Gradasi warna */
+  background-image: linear-gradient(to right, green, blue); /* Gradasi warna */
   -webkit-background-clip: text; /* Menempelkan gradasi ke teks */
   background-clip: text;
 }
