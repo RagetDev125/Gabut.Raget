@@ -59,10 +59,10 @@ h2 {
 p {
   font-size: 24px;
   font-weight: bold;
-  color: black; /* Warna teks */
-  -webkit-text-stroke: 1px transparent; /* Border luar transparan */
-  background-image: linear-gradient(to right, lime, cyan); /* Gradasi warna lime ke cyan */
-  -webkit-background-clip: text; /* Menempelkan gradasi ke teks */
+  color: black; 
+  -webkit-text-stroke: 1px transparent; 
+  background-image: linear-gradient(to right, lime, cyan); 
+  -webkit-background-clip: text; 
   background-clip: text;
 }
 .box {
