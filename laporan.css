@@ -67,8 +67,9 @@ p {
   background-clip: text;
 }
 
-a {
-  color: blue;
+.link {
+  color: black;
+  -webkit-text-stroke: none;
 }
   
 .box {
